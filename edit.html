@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Page - Online Encyclopedia</title>
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+    "
+  >
+    <div
+      style="
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <h1 style="font-size: 24px; margin-bottom: 20px">Edit Page</h1>
+      <!-- Form for editing an existing page -->
+      <form action="save_edit_page.php" method="POST">
+        <label for="title" style="font-weight: bold">Title:</label><br />
+        <input
+          type="text"
+          id="title"
+          name="title"
+          value="Article 1"
+          required
+          style="
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+          "
+        /><br />
+        <label for="content" style="font-weight: bold">Content:</label><br />
+        <textarea
+          id="content"
+          name="content"
+          rows="20"
+          required
+          style="
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+          "
+        >
+This is the content of Article 1.</textarea
+        ><br />
+        <button
+          type="submit"
+          style="
+            background-color: #0073e6;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+          "
+        >
+          Save
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

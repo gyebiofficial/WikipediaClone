@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+}
+.Navbar{
+    background-color: white;
+    height: 70px;
+
+}
+
+#logo{
+    margin-left: 40px;
+}
+
+#logoT{
+    margin-left: 100px;
+    display: block;
+    margin-top: -25px;
+    position: absolute;
+       
+}
+
+#logoc{
+    margin-left: 5px;
+    margin-top: 4%;
+    position: absolute;
+}
+
+
+
+.leftNavbar{
+    margin-left: 80px;
+    background-color: white;
+    width: 270px;
+    height: 70px;
+    position: absolute;
+}
+
+.CenterNavbar{
+    margin-left: 420px;
+    background-color: white;
+    width: 450px;
+    height: 70px;
+    position: absolute;
+ 
+}
+#searchbar{
+    /* margin-left: 350px; */
+    margin-top: 0%;
+    width: 350px;
+    height: 25px;
+
+}
+
+#searchbut{
+    margin-left: -5px;
+    margin-top: 3%;
+    width: 70px;
+    height: 31px;
+}
+
+.RightNavbar{
+    margin-left: 890px;
+    background-color: white;
+    width: 450px;
+    height: 70px;
+    position: absolute;
+}
+
+#pos{
+    margin-left: 50px;
+    margin-top: 5%;
+    width: 345px;
+    background-color: white;
+}
+.ref{
+    margin-left: 100px;
+    margin-bottom: 0px;
+    height: 30%;
+      
+}
+
+.leftside{
+    background-color: white;
+    height: 1330px;
+    width: 125px;
+    position: absolute;
+}
+
+.Rightside{
+    background-color: white;
+    height: 1330px;
+    margin-left: 1222px;
+    width: 130px;
+    position: absolute;
+}
+
+.Centerside{
+    background-color: whitesmoke;
+    height: 1330px;
+    margin-left: 131px;
+    width: 1087px;
+    position: absolute;
+
+}
+
+.m{
+    margin-left: 2px;
+    position: absolute;
+    margin-top: 3%;
+     
+}
+
+.Top{
+    background-color: white;
+    height: 50px;
+}
+
+.top{
+    /* background-color: whitesmoke; */
+    height: 100px;
+    border-style:inset;
+    background: #f9f9f9;
+    border-color: #ddd;
+    border: 1px solid #aaa;
+    padding: 0 0.5em 0.5em;
+    margin-top: 4px;
+}
+
+.left-content{
+    /* background-color: whitesmoke; */
+    height: 795px;
+    width: 540px;
+    /* border-style:double; */
+    background: #f5fffa;
+    border-color: #cef2e0;
+    border: 1px solid #aaa;
+    padding: 0 0.5em 0.5em;
+    margin-top: 4px;
+    
+    
+    
+}
+
+.Right-content{
+    /* background-color: whitesmoke; */
+    height: 795px;
+    width: 503px;
+    margin-left: 530px;
+    /* float: right ; */
+    margin-top: -74%;
+    /* border-style: inset; */
+    background: #f5fffa;
+    border-color: #cef2e0;
+    border: 1px solid #aaa;
+    padding: 0 0.5em 0.5em;
+    /* margin-top: 4px; */
+    
+}
+
+.Ctitle{
+    width: 490px;
+    height: 4%;
+    border-style: inset;
+    border: 1px solid #aaa;
+    margin: 0.5em 0;
+    padding: 0.2em 0.4em;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: inherit;
+    background: #cef2e0;
+    margin-left: 2px ;
+}
+
+
+#Op{
+    float: left;
+    margin: 0.5em 0.9em 0.4em 0em; 
+    /* margin-left: 30px; */
+    width: 140px;
+    background-color: rgb(153, 122, 85);
+    height: 18%;
+
+}
+
+#Opp{
+    float:right;
+    margin: 0.5em 0.9em 0.4em 0em; 
+    margin-left: 5px;
+    width: 125px;
+    background-color: rgb(153, 122, 85);
+    height: 20%;
+    margin-top: 0%;
+
+}
+
+#Oppp{
+    float:right;
+    margin: 0.5em 0.9em 0.4em 0em; 
+    margin-left: 20px;
+    width: 135px;
+    background-color: rgb(153, 122, 85);
+    height: 15%;
+
+
+}
+
+#pp{
+    margin-left: -20px;
+}
+
+#Opppp{
+    float:right;
+    margin: 0.5em 0.9em 0.4em 0em; 
+    margin-left: 5px;
+    width: 165px;
+    background-color: rgb(153, 122, 85);
+    height: 15%;
+    margin-top: 0%;
+}
+
+.bot{
+     /* background-color: rgb(135, 136, 82); */
+     height: 420px;
+     border-style:inset;
+     margin-top: 6px;
+     background: #f5fffa;
+    border-color: #cef2e0;
+    border: 1px solid #aaa;
+    padding: 0 0.5em 0.5em;
+        
+    }
+    
+#Oppppp{
+    float:left;
+    margin: 0.5em 0.9em 0.4em 0em; 
+    margin-left: 5px;
+    width: 350px;
+    background-color: rgb(153, 122, 85);
+    height: 80%;
+    margin-top: 0%;
+}
+
+.Ltitle{
+    width: 1045px;
+    height: 8%;
+    border-style: inset;
+    border: 1px solid #aaa;
+    margin: 0.5em 0;
+    padding: 0.2em 0.4em;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: inherit;
+    background: #b6b7c0;
+    margin-left: 8px 
+
+}
+
+
+
+
+
+
+
+       

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown - Online Encyclopedia</title>
+  <style>
+    /* Styles for edit page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    #content {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #0073e6;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Convert Your File</h1>
+    <!-- Form for converting file -->
+    <form id="editForm" action="save_edit_page.php" method="POST">
+      <label for="title"><b>Title:</b></label><br>
+      <input type="text" id="title" name="title" value="Article 1" required><br>
+      <label for="content"><b>Content (Markdown):</b></label><br>
+      <textarea id="content" name="content" rows="20" required>This is the content of Article 1.</textarea><br>
+      <button type="submit">Save</button>
+    </form>
+    
+    <div id="preview">
+      <h2>Preview:</h2>
+      <div id="markdownPreview"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    // Function to convert Markdown to HTML and display preview
+    function updatePreview() {
+      var markdownText = document.getElementById('content').value;
+      var html = marked(markdownText);
+      document.getElementById('markdownPreview').innerHTML = html;
+    }
+
+    // Call updatePreview on page load
+    updatePreview();
+
+    // Call updatePreview whenever the content textarea changes
+    document.getElementById('content').addEventListener('input', updatePreview);
+  </script>
+
+</body>
+</html>
